@@ -24,8 +24,8 @@ const props = defineProps({
     default: true
   },
   icon: {
-    type: String,
-    default: "" as PropType<'projects' | 'skills' | 'aboutme'>
+    type: String as PropType<'projects' | 'skills' | 'aboutme'>,
+    default: "projects"
   }
 })
 
