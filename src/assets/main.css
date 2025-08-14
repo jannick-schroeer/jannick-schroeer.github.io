@@ -1,0 +1,37 @@
+@import './base.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10');
+
+@font-face {
+  font-family: minecraft;
+  src: url('/MinecraftRegular.otf') format('opentype');
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: "minecraft", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: teal;
+  font-size: 32px;
+}
+
+/*Smaller than 600px*/
+@media (max-width: 600px) {
+  html, body {
+    font-size: 24px;
+  }
+}
+
+.thick-font {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.85rem
+}
+
+body * {
+  font-size: 1.1rem;
+}
