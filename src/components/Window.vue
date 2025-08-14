@@ -123,8 +123,8 @@ function closeWindow() {
 
 .small-window {
   top: calc(50% - 1.4rem);
-  max-height: calc(100vh - 4rem);
-  max-width: calc(100vw - 1.2rem);
+  max-height: calc(100% - 4rem);
+  max-width: calc(100% - 1.2rem);
 }
 
 .window-header {
